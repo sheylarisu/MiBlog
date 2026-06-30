@@ -1,6 +1,14 @@
-nav * {
+* { 
+	margin: 20px;
 	font-family: Arial, sans-serif;
 	padding: 10px;
+}
+
+nav {
+	text-decoration: none;
+	color: #b66277;
+	font-weight: bold;
+	font-size: 18px;
 }
 
 nav a {
@@ -11,7 +19,12 @@ nav a {
 }
 
 h1 {
-	margin: 20px;
+	
 	color: #0d2bda;
 
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
 }
