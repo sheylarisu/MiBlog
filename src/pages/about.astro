@@ -12,18 +12,37 @@ const pageTitle = "Nosotros";
 		<meta name="generator" content={Astro.generator} />
 		<title>{pageTitle}</title>
 		<style>
-			h1 {
+			nav * {
 				font-family: Arial, sans-serif;
+				padding: 10px;
+			}
+			nav a {
+				text-decoration: none;
+				color: #333;
+				font-weight: bold;
+				font-size: 18px;
+			}
+			
+			h1 {
+
+
+				font-family: Arial, sans-serif;
+
 				margin: 20px;
 				color: #0d2bda;
-				
+
 			}
 		</style>
+
 	</head>
+
 	<body>
-		<a href="/">inicio  </a>
-		<a href="/about">Sobre {pageTitle}  </a>
-		<a href="/Blog">Blog  </a>
+		<nav>
+		
+			<a href="/">inicio  </a>
+			<a href="/about">Sobre {pageTitle}  </a>
+			<a href="/Blog">Blog  </a>
+		</nav>
 
 		<h1>{pageTitle}</h1>
 		<p>sheyla astro</p>
