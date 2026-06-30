@@ -1,5 +1,5 @@
 * { 
-	margin: 20px;
+	margin: ;
 	font-family: Arial, sans-serif;
 	padding: 10px;
 }
@@ -20,11 +20,17 @@ nav a {
 
 h1 {
 	
+	margin: 20px 0;
 	color: #0d2bda;
 
 }
 
-ul {
+ul li {
 	list-style-type: none;
-	padding: 0;
+	padding:20px 10px;
+	margin:20px  0 5px 0;
+	background-color: #f2f2f2;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+
 }
